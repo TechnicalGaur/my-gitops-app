@@ -19,14 +19,14 @@ It automates application deployment by syncing Kubernetes manifests from a GitHu
 
 ---
 
-## 📝 Introduction
+# 📝 Introduction
 
 GitOps is a modern approach to Continuous Deployment (CD) where the desired state of infrastructure and applications is stored in Git.  
 This project sets up ArgoCD on a Kubernetes cluster (K3s) hosted on AWS EC2 and connects it to a GitHub repository containing Kubernetes manifests for an NGINX application.
 
 ---
 
-## 🧱 Architecture
+# 🧱 Architecture
 
 ```text
 GitHub Repo (YAML Manifests)
@@ -51,7 +51,7 @@ Kubernetes Cluster (Deploys App)
 | kubectl | Kubernetes CLI tool                 |
 
 
-⚙️ Setup Instructions
+# ⚙️ Setup Instructions
 
 1️⃣ Launch EC2 Instance
 OS: Ubuntu 20.04 or 22.04
@@ -126,7 +126,7 @@ Apply:
 kubectl apply -f application.yaml
 ```
 
-🔄 Project Workflow
+# 🔄 Project Workflow
 
 You push changes to deployment.yaml in GitHub.
 
@@ -137,7 +137,7 @@ Kubernetes deploys/updates the NGINX app.
 Service is exposed via NodePort → Accessible via EC2 Public IP.
 
 
-📷 Screenshots
+# 📷 Screenshots
 
 | Description        | Screenshot                              |
 | ------------------ | --------------------------------------- |
@@ -148,7 +148,7 @@ Service is exposed via NodePort → Accessible via EC2 Public IP.
 
 
 
-✅ Conclusion
+# ✅ Conclusion
 
 This project successfully implemented a GitOps pipeline using ArgoCD on a Kubernetes cluster hosted on AWS EC2 (via K3s).
 
@@ -161,13 +161,18 @@ Automated sync with ArgoCD
 Real-world GitOps workflow for Kubernetes
 
 
-👨‍💻 Author
+
+
+# 👨‍💻 Author
 
 Prashant Gour
 
 GitHub: [@TechnicalGaur](https://github.com/TechnicalGaur)
 
-📄 License
+
+
+
+# 📄 License
 
 This project is licensed under the MIT License.
 
