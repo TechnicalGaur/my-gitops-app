@@ -9,13 +9,13 @@ It automates application deployment by syncing Kubernetes manifests from a GitHu
 
 ## 📖 Table of Contents
 
-- [Introduction](#introduction)
-- [Architecture](#architecture)
-- [Tools Used](#tools-used)
-- [Setup Instructions](#setup-instructions)
-- [Project Workflow](#project-workflow)
-- [Screenshots](#screenshots)
-- [Conclusion](#conclusion)
+- [Introduction]
+- [Architecture]
+- [Tools Used]
+- [Setup Instructions]
+- [Project Workflow]
+- [Screenshots]
+- [Conclusion]
 
 ---
 
